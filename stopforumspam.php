@@ -51,7 +51,7 @@ function plugin_stopforumspam_hook(&$data) {
     }
 
     if($resp['ip']['lastseen'] > $tresh){
-        UnbAddLog('stopforumspam: user registration blocked by ip: '.$data['ip']);
+        UnbAddLog('stopforumspam: user registration blocked by ip: '.$_SERVER['REMOTE_ADDR']);
         $data['error'] = 'Sorry, you seem to be a spammer.';
         return;
     }
