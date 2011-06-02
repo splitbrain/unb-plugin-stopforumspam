@@ -1,0 +1,26 @@
+Stop Forum Spam Plugin for Unclassified Newsboard
+
+This plugin checks the provided username, email address and current IP
+address of anyone who attempts to register against the API provided
+by http://www.stopforumspam.com
+
+If a match was found, the user registration will be denied. Denials are
+logged in the standard UNB log.
+
+To install copy the stopforumspam.php into your unb_lib/plugins folder.
+
+
+----
+Copyright (C) Andreas Gohr <andi@splitbrain.org>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; version 2 of the License
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+See the docs/license.txt file in your UNB folder for details
+
