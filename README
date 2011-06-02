@@ -7,7 +7,7 @@ by http://www.stopforumspam.com
 If a match was found, the user registration will be denied. Denials are
 logged in the standard UNB log.
 
-To install copy the stopforumspam.php into your unb_lib/plugins folder.
+To install copy the stopforumspam.* files into your unb_lib/plugins folder.
 
 
 ----
